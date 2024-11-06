@@ -1,0 +1,42 @@
+/* Style for the section */
+section {
+    padding: 20px;
+}
+
+/* Style for the product list heading */
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Style for each grid column */
+.grid-column {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style for product images */
+.grid-column img {
+    max-width: 100%;
+}
+
+/* Style for product titles */
+.grid-column h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Style for product prices */
+.grid-column p {
+    margin: 5px 0;
+}
